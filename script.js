@@ -1,4 +1,4 @@
-sdocument.getElementById('importBtn').addEventListener('click', async () => {
+document.getElementById('importBtn').addEventListener('click', async () => {
     const apiKey = document.getElementById('apiKey').value;
     const apiToken = document.getElementById('apiToken').value;
     const jsonFile = document.getElementById('jsonFile').files[0];
